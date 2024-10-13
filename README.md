@@ -43,8 +43,6 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- TODO -->
 
-<!-- errors on index  -->
-<!-- contact section needs to be easy and no forms  -->
 <!-- not sure wI want the numbers on all the sections of the home page  -->
 <!-- section background colors  -->
 <!-- order of sections  -->
@@ -56,6 +54,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!-- add privacy and terms -->
 <!--  hover on icons for facebook insta -->
 <!--  etech font  -->
+<!-- at 570px shrink font on section 5 -->
 
 
 

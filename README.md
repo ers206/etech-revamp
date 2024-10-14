@@ -43,7 +43,6 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- TODO -->
 
-<!-- not sure wI want the numbers on all the sections of the home page  -->
 <!-- section background colors  -->
 <!-- order of sections  -->
 <!-- all different images -->
@@ -55,15 +54,15 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!--  hover on icons for facebook insta -->
 <!--  etech font  -->
 <!-- at 570px shrink font on section 5 -->
-
-
+<!-- modals too big for this screen -->
+<!-- shrink and convert images to webp -->
 
 <!--  aos works-->
 <!--  aos animations doesnt work on intro section, check css -->
 <!-- this was the errors on index page  style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"> too many : and ; -->
 
 
-<!-- Congratulations on getting AOS to work.
+<!-- 
 AOS Animations and Usage:
 Here's a comprehensive list of AOS animations and their usage:
 Fade Animations

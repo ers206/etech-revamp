@@ -338,7 +338,12 @@ body {
 main {
     display : block;
 }
-
+.same-size {
+    width: auto; /* Set your desired width */
+    height: auto; /* Set your desired height */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+  }
+  
 h1 {
     font-size : 2em;
     margin    : 0.67em 0;
@@ -3477,6 +3482,19 @@ img.u-pull-left {
     pointer-events : none;
     opacity        : 0;
 }
+
+#etech {
+    /* font-size: 60px; */
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #0343DF; /* Vibrant blue base color */
+    text-shadow:
+      0 0 2px rgba(0, 120, 255, 1), /* Intense inner blue glow */
+      0 4px 4px rgba(0, 0, 0, 0.2), /* Deeper shadow */
+      4px 4px 4px rgba(60, 180, 255, 0.8), /* Bold metallic blue highlight */
+      -4px -4px 4px rgba(60, 180, 255, 0.8); /* Bold metallic blue highlight */
+      /* box-shadow: 0 0 10px rgba(0, 120, 255, 0.5); */
+  }
 
 .s-intro__content-title {
     --text-title-size : 8.8rem;

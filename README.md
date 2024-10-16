@@ -2,24 +2,20 @@
 
 ## Purpose
 
-
+This website serves as a comprehensive digital portfolio showcasing my diverse skill set as a developer, photographer, and social media marketer. Through this platform, I aim to demonstrate my expertise in each of these areas, highlight my previous projects, and attract potential clients or collaborators. By sharing my work and passion for technology, creativity, and digital communication, I hope to establish myself as a versatile and skilled professional in the industry.
 
 ## Description
 
-
+This website is a dynamic and visually appealing online portfolio built using cutting-edge web technologies. I've leveraged JavaScript, AOS library, CSS animations, HTML5, and other modern tools to create a seamless and engaging user experience. The site showcases my skills as a developer, photographer, and social media marketer, featuring a variety of projects and examples of my work.
 
 
 ## Built with
 
 * HTML
 * CSS
-* Bootstrap
 * JavaScript
-* Google Fonts
-* Font Awesome
 * AOS
-* Tiny-sliders
-* PHP
+
 
 
 ## images
@@ -55,7 +51,8 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 <!--  etech font  -->
 <!-- at 570px shrink font on section 5 -->
 <!-- modals too big for this screen -->
-<!-- shrink and convert images to webp -->
+<!-- shrink and convert images to webp do favicon too***-->
+<!-- take screen shots for readme -->
 
 <!--  aos works-->
 <!--  aos animations doesnt work on intro section, check css -->

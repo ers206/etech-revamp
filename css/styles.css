@@ -338,11 +338,7 @@ body {
 main {
     display : block;
 }
-.same-size {
-    width: auto; /* Set your desired width */
-    height: auto; /* Set your desired height */
-    object-fit: cover; /* Ensures the image fills the space without distortion */
-  }
+
   
 h1 {
     font-size : 2em;
@@ -4039,42 +4035,105 @@ img.u-pull-left {
 /* ------------------------------------------------------------------- 
  * ## modal popup
  * ------------------------------------------------------------------- */
-.modal-popup {
-    max-width        : 680px;
-    background-color : white;
+/* .modal-popup {
+    max-width        : 85vh;
+    max-width        : 85vh;
+    background-color : black;
     font-size        : calc(var(--text-size) * 0.9447);
     line-height      : var(--vspace-0_875);
     color            : rgba(0, 0, 0, 0.75);
     overflow-y       : auto;
     position         : relative;
-}
-
-.modal-popup img {
+} */
+.modal-popup {
+    max-width: 85vw;
+    max-height: 85vh;
+    background-color: #161616;
+    font-size: calc(var(--text-size) * 0.9447);
+    line-height: var(--vspace-0_875);
+    color: black(0, 0, 0, 0.75);
+    overflow-y: auto;
+    position: relative;
+    padding: var(--vspace-0_75); 
+    /* text-align: center;  */
+} 
+/* .modal-popup img {
     margin-bottom : var(--vspace-0_75);
+} */
+/* .modal-popup img {
+    max-width: 100%; 
+    max-height: 80vh; 
+    width: auto; 
+    height: auto; 
+    object-fit: contain; 
+    margin-bottom: var(--vspace-0_75);
+} */
+.modal-popup img {
+    /* max-width: 100%;  */
+    max-height: 95vh; 
+    display: block;
+    margin: 0 auto; 
+    /* display: block; */
+    /* width: auto;  */
+    /* height: auto;  */
+    /* margin-bottom: var(--vspace-0_75);  */
 }
-
+.modal-popup__desc p,
+.modal-popup__desc h5,
+.modal-popup__desc ul {
+    max-width: 100%; /* Ensure no text exceeds the image width */
+    margin: 0 auto; /* Center content within the description */
+    word-wrap: break-word; /* Wrap long words inside the container */
+}
 .modal-popup h5 {
     font-family   : var(--font-1);
     font-size     : var(--text-size);
     line-height   : var(--vspace-1);
     font-weight   : 500;
-    color         : black;
+    color         : white;
     margin-top    : 0;
     margin-bottom : var(--vspace-0_25);
 }
 
-.modal-popup__desc {
+/* .modal-popup__desc {
     padding : 0 var(--vspace-1_25) var(--vspace-0_25);
+} */
+.modal-popup__desc {
+    display: inline-block; /* Makes the description block align with the image */
+    max-width: 100%; /* Ensures it doesn't exceed the modal width */
+    margin: 0 auto; /* Centers the description */
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    word-wrap: break-word;
 }
+
+.modal-popup__details {
+    margin-top: 10px; /* Adds space above the project link */
+    display: inline-block; /* Ensures the link stays within the modal width */
+}
+
+.modal-popup__desc p {
+    color: white;
+}
+/* .modal-popup__desc {
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 0 var(--vspace-1_25) var(--vspace-0_25); 
+    box-sizing: border-box; 
+} */
 
 .modal-popup__cat {
     list-style   : none;
     margin-left  : 0;
     font-size    : var(--text-sm);
     line-height  : var(--vspace-0_5);
-    color        : rgba(0, 0, 0, 0.6);
+    color        : white(0, 0, 0, 0.6);
     padding-left : calc(0.875 * var(--space));
     position     : relative;
+}
+
+.modal-popup__cat li {
+    color: white;
 }
 
 .modal-popup__cat::before {
@@ -4105,7 +4164,9 @@ img.u-pull-left {
 }
 
 .modal-popup__details {
-    background-color : rgba(0, 0, 0, 0.3);
+    /* Ensure the details section doesn't exceed modal width */
+
+    background-color : #161616;
     font-size        : var(--text-xs);
     line-height      : var(--vspace-1_25);
     color            : white;

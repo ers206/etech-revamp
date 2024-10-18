@@ -20,11 +20,11 @@ This website is a dynamic and visually appealing online portfolio built using cu
 
 ## images
 
-![]()
-![]()
-![]()
-![]()
-![]()
+![](/images/EtechScreenshot.webp)
+![](/images/Screenshot%202024-10-18%20165739.webp)
+![](/images/Screenshot%202024-10-18%20165809.webp)
+![](/images/Screenshot%202024-10-18%20165823.webp)
+
 
 
 ## Website 
@@ -39,16 +39,10 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- TODO -->
 
-<!-- more about ius button?  -->
-<!-- twitter account -->
-<!--  etech font  -->
-<!-- at 570px shrink font on section 5 -->
-<!-- take screen shots for readme -->
 <!-- clean up  -->
 
 <!--  aos works-->
 <!--  aos animations doesnt work on intro section, check css -->
-<!-- this was the errors on index page  style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"> too many : and ; -->
 
 
 <!-- 

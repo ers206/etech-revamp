@@ -39,6 +39,7 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- TODO -->
 
+<!-- check all links -->
 <!-- clean up  -->
 
 <!--  aos works-->

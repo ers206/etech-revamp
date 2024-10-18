@@ -39,20 +39,12 @@ Eric Schweitzer at E TECHNOLOGIES LLC
 
 <!-- TODO -->
 
-<!-- section background colors  -->
-<!-- order of sections  -->
-<!-- all different images -->
 <!-- more about ius button?  -->
-<!-- video? -->
-<!-- footer color  -->
 <!-- twitter account -->
-<!-- add privacy and terms -->
-<!--  hover on icons for facebook insta -->
 <!--  etech font  -->
 <!-- at 570px shrink font on section 5 -->
-<!-- modals too big for this screen -->
-<!-- shrink and convert images to webp do favicon too***-->
 <!-- take screen shots for readme -->
+<!-- clean up  -->
 
 <!--  aos works-->
 <!--  aos animations doesnt work on intro section, check css -->

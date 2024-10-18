@@ -3393,7 +3393,7 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-intro__bg {
     display             : block;
-    background-image    : url(../images/IMG_1118.JPG);
+    background-image    : url(../images/waterFall.webp);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3452,7 +3452,7 @@ img.u-pull-left {
 
 .s-intro__content-bg {
     display             : block;
-    background-image    : url(../images/pexels-athena-2582935.jpg);
+    background-image    : url(../images/pexels-athena-2582935.webp);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3486,9 +3486,9 @@ img.u-pull-left {
     color: #0343DF; /* Vibrant blue base color */
     text-shadow:
       0 0 2px rgba(0, 120, 255, 1), /* Intense inner blue glow */
-      0 4px 4px rgba(0, 0, 0, 0.2), /* Deeper shadow */
-      4px 4px 4px rgba(60, 180, 255, 0.8), /* Bold metallic blue highlight */
-      -4px -4px 4px rgba(60, 180, 255, 0.8); /* Bold metallic blue highlight */
+      0 4px 4px rgba(0, 0, 0, 0.8), /* Deeper shadow */
+      4px 4px 4px rgba(60, 180, 255, 0.9), /* Bold metallic blue highlight */
+      -4px -4px 4px rgba(60, 180, 255, 0.9); /* Bold metallic blue highlight */
       /* box-shadow: 0 0 10px rgba(0, 120, 255, 0.5); */
   }
 
@@ -4055,7 +4055,7 @@ img.u-pull-left {
     overflow-y: auto;
     position: relative;
     padding: var(--vspace-0_75); 
-    /* text-align: center;  */
+    text-align: center;  
 } 
 /* .modal-popup img {
     margin-bottom : var(--vspace-0_75);
@@ -4144,7 +4144,7 @@ img.u-pull-left {
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : contain;
-    background-image    : url(../images/icons/icon-tag.svg);
+    /* background-image    : url(../images/icons/icon-tag.svg);  */
     position            : absolute;
     left                : 0;
     top                 : -0.15em;
